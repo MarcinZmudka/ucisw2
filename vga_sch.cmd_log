@@ -1,0 +1,49 @@
+sch2sym -intstyle ise -family spartan3e -refsym vga_sch C:/Users/lab/Desktop/VGA/vga_sch.sch C:/Users/lab/Desktop/VGA/vga_sch.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl vga_sch_drc.vhf -w C:/Users/lab/Desktop/VGA/vga_sch.sch 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/VGA/vga_sch.xst" -ofn "C:/Users/lab/Desktop/VGA/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 vga_sch.ngc vga_sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_sch_map.ncd vga_sch.ngd vga_sch.pcf 
+par -w -intstyle ise -ol high -t 1 vga_sch_map.ncd vga_sch.ncd vga_sch.pcf 
+bitgen -intstyle ise -f vga_sch.ut vga_sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/VGA/vga_sch.xst" -ofn "C:/Users/lab/Desktop/VGA/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 vga_sch.ngc vga_sch.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 vga_sch.ngc vga_sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_sch_map.ncd vga_sch.ngd vga_sch.pcf 
+par -w -intstyle ise -ol high -t 1 vga_sch_map.ncd vga_sch.ncd vga_sch.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_sch.twx vga_sch.ncd -o vga_sch.twr vga_sch.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f vga_sch.ut vga_sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/VGA/vga_sch.xst" -ofn "C:/Users/lab/Desktop/VGA/vga_sch.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/VGA/vga_sch.xst" -ofn "C:/Users/lab/Desktop/VGA/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 vga_sch.ngc vga_sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_sch_map.ncd vga_sch.ngd vga_sch.pcf 
+par -w -intstyle ise -ol high -t 1 vga_sch_map.ncd vga_sch.ncd vga_sch.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_sch.twx vga_sch.ncd -o vga_sch.twr vga_sch.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f vga_sch.ut vga_sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/VGA/vga_sch.xst" -ofn "C:/Users/lab/Desktop/VGA/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 vga_sch.ngc vga_sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_sch_map.ncd vga_sch.ngd vga_sch.pcf 
+par -w -intstyle ise -ol high -t 1 vga_sch_map.ncd vga_sch.ncd vga_sch.pcf 
+bitgen -intstyle ise -f vga_sch.ut vga_sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/VGA/vga_sch.xst" -ofn "C:/Users/lab/Desktop/VGA/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 vga_sch.ngc vga_sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_sch_map.ncd vga_sch.ngd vga_sch.pcf 
+par -w -intstyle ise -ol high -t 1 vga_sch_map.ncd vga_sch.ncd vga_sch.pcf 
+bitgen -intstyle ise -f vga_sch.ut vga_sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/VGA/vga_sch.xst" -ofn "C:/Users/lab/Desktop/VGA/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 vga_sch.ngc vga_sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_sch_map.ncd vga_sch.ngd vga_sch.pcf 
+par -w -intstyle ise -ol high -t 1 vga_sch_map.ncd vga_sch.ncd vga_sch.pcf 
+bitgen -intstyle ise -f vga_sch.ut vga_sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/VGA/vga_sch.xst" -ofn "C:/Users/lab/Desktop/VGA/vga_sch.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/VGA/vga_sch.xst" -ofn "C:/Users/lab/Desktop/VGA/vga_sch.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/VGA/vga_sch.xst" -ofn "C:/Users/lab/Desktop/VGA/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 vga_sch.ngc vga_sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_sch_map.ncd vga_sch.ngd vga_sch.pcf 
+par -w -intstyle ise -ol high -t 1 vga_sch_map.ncd vga_sch.ncd vga_sch.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_sch.twx vga_sch.ncd -o vga_sch.twr vga_sch.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f vga_sch.ut vga_sch.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/VGA/vga_sch.xst" -ofn "C:/Users/lab/Desktop/VGA/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 vga_sch.ngc vga_sch.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_sch_map.ncd vga_sch.ngd vga_sch.pcf 
+par -w -intstyle ise -ol high -t 1 vga_sch_map.ncd vga_sch.ncd vga_sch.pcf 
+bitgen -intstyle ise -f vga_sch.ut vga_sch.ncd 

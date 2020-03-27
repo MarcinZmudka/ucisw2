@@ -1,0 +1,7 @@
+[Inputs]
+CLK
+=PIX_X[9:0]=
+=PIX_Y[8:0]=
+[Outputs]
+=RGB[2:0]=
+[BiDir]

@@ -1,0 +1,5 @@
+MODULE vga_sch
+	SUBMODULE vga_driver
+		INSTANCE XLXI_1
+	SUBMODULE pic
+		INSTANCE XLXI_2

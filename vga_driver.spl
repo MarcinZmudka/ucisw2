@@ -1,0 +1,12 @@
+[Inputs]
+CLK_50MHz
+=RGB[2:0]=
+[Outputs]
+VGA_R
+VGA_G
+VGA_B
+VGA_HS
+VGA_VS
+=PIX_X[9:0]=
+=PIX_Y[8:0]=
+[BiDir]

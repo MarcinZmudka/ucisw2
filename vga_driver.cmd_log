@@ -1,0 +1,6 @@
+vhdtdtfi -lib work vga_controller.vhd -prj VGA -o vga_driver.spl -module vga_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e vga_driver.spl C:/Users/lab/Desktop/VGA/vga_driver.sym 
+vhdtdtfi -lib work vga_controller.vhd -prj VGA -o vga_driver.spl -module vga_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e vga_driver.spl C:/Users/lab/Desktop/VGA/vga_driver.sym 
+vhdtdtfi -lib work vga_controller.vhd -prj VGA -o vga_driver.spl -module vga_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e vga_driver.spl C:/Users/lab/Desktop/VGA/vga_driver.sym 

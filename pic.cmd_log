@@ -1,0 +1,4 @@
+vhdtdtfi -lib work pic.vhd -prj VGA -o pic.spl -module pic -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e pic.spl C:/Users/lab/Desktop/VGA/pic.sym 
+vhdtdtfi -lib work pic.vhd -prj VGA -o pic.spl -module pic -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e pic.spl C:/Users/lab/Desktop/VGA/pic.sym 

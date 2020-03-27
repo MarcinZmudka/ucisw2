@@ -1,0 +1,6 @@
+AR pic behavioral C:/Users/lab/Desktop/VGA/pic.vhd sub00/vhpl05 1580161361
+EN vga_sch NULL C:/Users/lab/Desktop/VGA/vga_sch.vhf sub00/vhpl02 1580161362
+AR vga_driver behavior C:/Users/lab/Desktop/VGA/vga_controller.vhd sub00/vhpl01 1580161359
+EN vga_driver NULL C:/Users/lab/Desktop/VGA/vga_controller.vhd sub00/vhpl00 1580161358
+EN pic NULL C:/Users/lab/Desktop/VGA/pic.vhd sub00/vhpl04 1580161360
+AR vga_sch behavioral C:/Users/lab/Desktop/VGA/vga_sch.vhf sub00/vhpl03 1580161363

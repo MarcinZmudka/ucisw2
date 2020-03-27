@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lab/Desktop/VGA/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/Desktop/VGA/xst"
+elaborate
+-ifn vga_driver.prj
+-ifmt mixed

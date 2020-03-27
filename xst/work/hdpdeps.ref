@@ -1,0 +1,18 @@
+V3 12
+FL C:/Users/lab/Desktop/VGA/pic.vhd 2020/01/27.22:42:17 P.20131013
+EN work/pic 1580161360 FL C:/Users/lab/Desktop/VGA/pic.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/pic/Behavioral 1580161361 \
+      FL C:/Users/lab/Desktop/VGA/pic.vhd EN work/pic 1580161360
+FL C:/Users/lab/Desktop/VGA/vga_controller.vhd 2020/01/27.21:21:35 P.20131013
+EN work/vga_driver 1580161358 FL C:/Users/lab/Desktop/VGA/vga_controller.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/vga_driver/behavior 1580161359 \
+      FL C:/Users/lab/Desktop/VGA/vga_controller.vhd EN work/vga_driver 1580161358
+FL C:/Users/lab/Desktop/VGA/vga_sch.vhf 2020/01/27.22:37:05 P.20131013
+EN work/vga_sch 1580161362 FL C:/Users/lab/Desktop/VGA/vga_sch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/vga_sch/BEHAVIORAL 1580161363 \
+      FL C:/Users/lab/Desktop/VGA/vga_sch.vhf EN work/vga_sch 1580161362 \
+      CP vga_driver CP pic
