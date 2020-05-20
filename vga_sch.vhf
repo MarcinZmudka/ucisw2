@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : vga_sch.vhf
--- /___/   /\     Timestamp : 01/27/2020 22:37:05
+-- /___/   /\     Timestamp : 04/15/2020 10:14:14
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl C:/Users/lab/Desktop/VGA/vga_sch.vhf -w C:/Users/lab/Desktop/VGA/vga_sch.sch
+--Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_sch.vhf -w C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_sch.sch
 --Design Name: vga_sch
 --Device: spartan3e
 --Purpose:

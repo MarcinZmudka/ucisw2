@@ -1,6 +1,6 @@
-AR pic behavioral C:/Users/lab/Desktop/VGA/pic.vhd sub00/vhpl05 1580161361
-EN vga_sch NULL C:/Users/lab/Desktop/VGA/vga_sch.vhf sub00/vhpl02 1580161362
-AR vga_driver behavior C:/Users/lab/Desktop/VGA/vga_controller.vhd sub00/vhpl01 1580161359
-EN vga_driver NULL C:/Users/lab/Desktop/VGA/vga_controller.vhd sub00/vhpl00 1580161358
-EN pic NULL C:/Users/lab/Desktop/VGA/pic.vhd sub00/vhpl04 1580161360
-AR vga_sch behavioral C:/Users/lab/Desktop/VGA/vga_sch.vhf sub00/vhpl03 1580161363
+AR pic behavioral C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/pic.vhd sub00/vhpl05 1586938461
+EN vga_sch NULL C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_sch.vhf sub00/vhpl02 1586938462
+AR vga_driver behavior C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_controller.vhd sub00/vhpl01 1586938459
+EN vga_driver NULL C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_controller.vhd sub00/vhpl00 1586938458
+EN pic NULL C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/pic.vhd sub00/vhpl04 1586938460
+AR vga_sch behavioral C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_sch.vhf sub00/vhpl03 1586938463

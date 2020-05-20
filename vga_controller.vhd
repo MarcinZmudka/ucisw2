@@ -89,8 +89,6 @@ BEGIN
 			VGA_G <= RGB(1);
 			VGA_B <= RGB(0);
 		else
---			PIX_X <= std_logic_vector(to_unsigned(640,10));
---			PIX_Y <= std_logic_vector(to_unsigned(480,9));
 			PIX_X <= std_logic_vector(to_unsigned(h_cnt,10));
 			PIX_Y <= std_logic_vector(to_unsigned(v_cnt,9));
 			VGA_R <= '0';

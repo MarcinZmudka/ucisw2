@@ -30,7 +30,7 @@ USE ieee.std_logic_1164.ALL;
  
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
---USE ieee.numeric_std.ALL;
+USE ieee.numeric_std.ALL;
  
 ENTITY pic_tb IS
 END pic_tb;
@@ -80,13 +80,26 @@ BEGIN
       wait for 100 ns;	
 				CLK <= '0';
 
-
+		PIX_X <= "0000000000";
+		PIX_Y <= "010010110";
+		
       wait for CLK_period*10;
-
-      	for i in 0 to 50000000 loop
-				CLK <= not CLK;
+      --for i in 0 to 10*10 loop
+        -- CLK <= not CLK;
+         --wait for 50ns;
+      --end loop;
+      for i in 0 to 315 loop
+         	PIX_X <= std_logic_vector(to_unsigned(i, 10));
 				wait for 50ns;
-			end loop;
+            CLK <= not CLK;
+            wait for 50ns;
+      end loop;
+      	-- for i in 0 to 8333340*600 loop
+			-- 	PIX_X <= "0000000000";
+         -- 	PIX_Y <= "010010110";
+         -- CLK <= not CLK;
+         -- wait for 50ns;
+			-- end loop;
 
       wait;
    end process;

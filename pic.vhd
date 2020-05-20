@@ -1,22 +1,4 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    21:28:53 03/09/2020 
--- Design Name: 
--- Module Name:    pic - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
-----------------------------------------------------------------------------------
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.ALL;
@@ -49,7 +31,7 @@ BEGIN
 	-- Dzielnik zegara wejœciowego 50 MHz. Na podstawie sygna³u wejœciowego CLK_50MHz
 	-- generowany jest wewnêtrzny sygna³ clk_25 (25 MHz). 
 	if rising_edge (CLK) then
-		if(counter > 833334) then
+		if(counter > 833334) then -- odœwie¿anie ustawione na 60Hz 
 			small_clk <= not small_clk;
 			counter <= 0;
 		else
@@ -61,8 +43,8 @@ BEGIN
 	process(small_clk)
 	begin
 		if rising_edge(small_clk) then
-			if(x + 300 >= 639 ) then
-				minus_or_plus <= -1;
+			if(x + 300 >= 639 ) then -- x+300 - prawa krawêdŸ kwadratu, x - lewa krawêdŸ kwadratu
+				minus_or_plus <= -1; -- s³u¿y do przesuwania kwadratu w lewo ( gdy jest plus ) i w prawo ( gdy jest minus )
 				x <= x -1;
 			elsif(x = 0) then
 				minus_or_plus <= 1;	
@@ -78,9 +60,9 @@ BEGIN
 		if((to_integer(unsigned(PIX_X)) >= x) and to_integer(unsigned(PIX_X)) < (x + 300)) and 
 		   (to_integer(unsigned(PIX_Y)) >= 100 and to_integer(unsigned(PIX_Y)) < 300)
 			then
-				RGB <= "100";
+				RGB <= "100"; -- kolor kwadratu
 		else 
-				RGB <= "001";
+				RGB <= "001"; -- kolor t³a
 		end if;
 	end process ;
 end Behavioral;

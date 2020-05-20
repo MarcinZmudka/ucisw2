@@ -9,14 +9,8 @@ Target Device  : xc3s500e
 Target Package : fg320
 Target Speed   : -5
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Mon Jan 27 22:42:48 2020
+Mapped Date    : Wed Apr 15 10:14:33 2020
 
-vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-INFO:Security:54 - 'xc3s500e' is a WebPack part.
-WARNING:Security:42 - Your software subscription period has lapsed. Your current
-version of Xilinx tools will continue to function, but you no longer qualify for
-Xilinx software updates or new releases.
-----------------------------------------------------------------------
 Mapping design into LUTs...
 Running directed packing...
 Running delay-based LUT packing...
@@ -49,8 +43,8 @@ Logic Distribution:
 
 Average Fanout of Non-Clock Nets:                3.43
 
-Peak Memory Usage:  4413 MB
-Total REAL time to MAP completion:  1 secs 
+Peak Memory Usage:  4434 MB
+Total REAL time to MAP completion:  3 secs 
 Total CPU time to MAP completion:   1 secs 
 
 NOTES:

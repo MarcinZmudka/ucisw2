@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-LAB016-04::  Mon Jan 27 22:42:51 2020
+DESKTOP-HIDFV9I::  Wed Apr 15 10:14:40 2020
 
 par -w -intstyle ise -ol high -t 1 vga_sch_map.ncd vga_sch.ncd vga_sch.pcf 
 
@@ -9,12 +9,6 @@ par -w -intstyle ise -ol high -t 1 vga_sch_map.ncd vga_sch.ncd vga_sch.pcf
 Constraints file: vga_sch.pcf.
 Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
    "vga_sch" is an NCD, version 3.2, device xc3s500e, package fg320, speed -5
-vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-INFO:Security:54 - 'xc3s500e' is a WebPack part.
-WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
-to function, but you no longer qualify for Xilinx software updates or new releases.
-
-----------------------------------------------------------------------
 
 Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
 Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
@@ -53,49 +47,49 @@ Placer effort level (-pl):    High
 Placer cost table entry (-t): 1
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 0 secs 
-Finished initial Timing Analysis.  REAL time: 0 secs 
+Starting initial Timing Analysis.  REAL time: 1 secs 
+Finished initial Timing Analysis.  REAL time: 1 secs 
 
 
 Starting Placer
-Total REAL time at the beginning of Placer: 0 secs 
-Total CPU  time at the beginning of Placer: 0 secs 
+Total REAL time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:bc3ff3ad) REAL time: 0 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:bc3ff3ad) REAL time: 2 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:bc3ff3ad) REAL time: 1 secs 
+Phase 2.7  Design Feasibility Check (Checksum:bc3ff3ad) REAL time: 2 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:bc3ff3ad) REAL time: 1 secs 
+Phase 3.31  Local Placement Optimization (Checksum:bc3ff3ad) REAL time: 2 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 
-Phase 4.2  Initial Clock and IO Placement (Checksum:cef7d1d5) REAL time: 2 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:cef7d1d5) REAL time: 4 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:cef7d1d5) REAL time: 2 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:cef7d1d5) REAL time: 4 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:cef7d1d5) REAL time: 2 secs 
+Phase 6.36  Local Placement Optimization (Checksum:cef7d1d5) REAL time: 4 secs 
 
 Phase 7.8  Global Placement
 ............................................
 ..
-Phase 7.8  Global Placement (Checksum:2c1c1c77) REAL time: 2 secs 
+Phase 7.8  Global Placement (Checksum:2c1c1c77) REAL time: 4 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:2c1c1c77) REAL time: 2 secs 
+Phase 8.5  Local Placement Optimization (Checksum:2c1c1c77) REAL time: 4 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:d17e25eb) REAL time: 2 secs 
+Phase 9.18  Placement Optimization (Checksum:d17e25eb) REAL time: 4 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:d17e25eb) REAL time: 2 secs 
+Phase 10.5  Local Placement Optimization (Checksum:d17e25eb) REAL time: 4 secs 
 
-Total REAL time to Placer completion: 2 secs 
-Total CPU  time to Placer completion: 2 secs 
+Total REAL time to Placer completion: 4 secs 
+Total CPU  time to Placer completion: 3 secs 
 Writing design to file vga_sch.ncd
 
 
@@ -103,28 +97,28 @@ Writing design to file vga_sch.ncd
 Starting Router
 
 
-Phase  1  : 822 unrouted;      REAL time: 4 secs 
+Phase  1  : 822 unrouted;      REAL time: 7 secs 
 
-Phase  2  : 754 unrouted;      REAL time: 4 secs 
+Phase  2  : 754 unrouted;      REAL time: 7 secs 
 
-Phase  3  : 108 unrouted;      REAL time: 4 secs 
+Phase  3  : 108 unrouted;      REAL time: 7 secs 
 
-Phase  4  : 108 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
+Phase  4  : 108 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
 
 Updating file: vga_sch.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
 WARNING:Route:455 - CLK Net:XLXI_2/small_clk may have excessive skew because 
       3 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
 
-Total REAL time to Router completion: 5 secs 
-Total CPU time to Router completion: 5 secs 
+Total REAL time to Router completion: 8 secs 
+Total CPU time to Router completion: 6 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -178,10 +172,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 5 secs 
-Total CPU time to PAR completion: 5 secs 
+Total REAL time to PAR completion: 8 secs 
+Total CPU time to PAR completion: 7 secs 
 
-Peak Memory Usage:  4431 MB
+Peak Memory Usage:  4446 MB
 
 Placement: Completed - No errors found.
 Routing: Completed - No errors found.
