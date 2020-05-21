@@ -1,9 +1,9 @@
 # soldered 50MHz Clock.
-NET "Clk_50MHz" LOC = "C9" | IOSTANDARD = LVTTL | PERIOD = 20.0ns HIGH 50%;
+#NET "Clk_50MHz" LOC = "C9" | IOSTANDARD = LVTTL | PERIOD = 20.0ns HIGH 50%;
 
 # Ignore cross-clock domain data paths in timing analysis
-#NET "Clk50"  TNM = "TNM_Clk50";
-#NET "ClkSys" TNM = "TNM_ClkSys";
+NET "Clk50"  TNM = "TNM_Clk50";
+NET "ClkSys" TNM = "TNM_ClkSys";
 #TIMESPEC "TS_12" = FROM "TNM_ClkSys" TO "TNM_Clk50"  TIG;
 #TIMESPEC "TS_13" = FROM "TNM_Clk50"  TO "TNM_ClkSys" TIG;
 
@@ -45,8 +45,8 @@ NET "Clk_50MHz" LOC = "C9" | IOSTANDARD = LVTTL | PERIOD = 20.0ns HIGH 50%;
 #
 # PS/2 port
 #
-#NET "PS2_Data" LOC = "G13" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
-#NET "PS2_Clk"  LOC = "G14" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+NET "PS2_Data" LOC = "G13" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+NET "PS2_Clk"  LOC = "G14" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
 
 #
 # VGA

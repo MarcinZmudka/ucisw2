@@ -46,8 +46,8 @@ signal small_clk: std_logic := '0';
 BEGIN
 	clk_div : process(CLK) 
 	begin
-	-- Dzielnik zegara wejœciowego 50 MHz. Na podstawie sygna³u wejœciowego CLK_50MHz
-	-- generowany jest wewnêtrzny sygna³ clk_25 (25 MHz). 
+	-- Dzielnik zegara wejciowego 50 MHz. Na podstawie sygnau wejciowego CLK_50MHz
+	-- generowany jest wewntrzny sygna clk_25 (25 MHz). 
 	if rising_edge (CLK) then
 		if(counter > 833334) then
 			small_clk <= not small_clk;

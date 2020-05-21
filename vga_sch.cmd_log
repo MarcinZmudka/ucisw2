@@ -47,3 +47,18 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 
 map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_sch_map.ncd vga_sch.ngd vga_sch.pcf 
 par -w -intstyle ise -ol high -t 1 vga_sch_map.ncd vga_sch.ncd vga_sch.pcf 
 bitgen -intstyle ise -f vga_sch.ut vga_sch.ncd 
+xst -intstyle ise -ifn "/home/ise/vmshare/ucisw2/vga_sch.xst" -ofn "/home/ise/vmshare/ucisw2/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xa6slx4-csg225-3 vga_sch.ngc vga_sch.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_sch_map.ncd vga_sch.ngd vga_sch.pcf 
+xst -intstyle ise -ifn "/home/ise/vmshare/ucisw2/vga_sch.xst" -ofn "/home/ise/vmshare/ucisw2/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xa6slx4-csg225-3 vga_sch.ngc vga_sch.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm vga_sch -w -dir netgen/translate -ofmt vhdl -sim vga_sch.ngd vga_sch_translate.vhd 
+xst -intstyle ise -ifn "/home/ise/vmshare/ucisw2/vga_sch.xst" -ofn "/home/ise/vmshare/ucisw2/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xa6slx4-csg225-3 vga_sch.ngc vga_sch.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm vga_sch -w -dir netgen/translate -ofmt vhdl -sim vga_sch.ngd vga_sch_translate.vhd 
+xst -intstyle ise -ifn "/home/ise/vmshare/ucisw2/vga_sch.xst" -ofn "/home/ise/vmshare/ucisw2/vga_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xa6slx4-csg225-3 vga_sch.ngc vga_sch.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm vga_sch -w -dir netgen/translate -ofmt vhdl -sim vga_sch.ngd vga_sch_translate.vhd 
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_sch_map.ncd vga_sch.ngd vga_sch.pcf 
+xst -intstyle ise -ifn "/home/ise/vmshare/ucisw2/vga_sch.xst" -ofn "/home/ise/vmshare/ucisw2/vga_sch.syr" 
+sch2hdl -intstyle ise -family aspartan6 -flat -suppress -vhdl vga_sch_drc.vhf -w /home/ise/vmshare/ucisw2/vga_sch.sch 

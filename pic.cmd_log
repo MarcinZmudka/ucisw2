@@ -2,3 +2,12 @@ vhdtdtfi -lib work pic.vhd -prj VGA -o pic.spl -module pic -template C:/Xilinx/1
 spl2sym -intstyle ise -family spartan3e pic.spl C:/Users/lab/Desktop/VGA/pic.sym 
 vhdtdtfi -lib work pic.vhd -prj VGA -o pic.spl -module pic -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
 spl2sym -intstyle ise -family spartan3e pic.spl C:/Users/lab/Desktop/VGA/pic.sym 
+vhdtdtfi -lib work pic.vhd -prj VGA -o pic.spl -module pic -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 pic.spl /home/ise/vmshare/ucisw2/pic.sym 
+vhdtdtfi -lib work pic.vhd -prj VGA -o pic.spl -module pic -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 -w pic.spl /home/ise/vmshare/ucisw2/pic.sym 
+vhdtdtfi -lib work pic.vhd -lib work pic2.vhd -prj VGA -o pic.spl -module pic -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 -w pic.spl /home/ise/vmshare/ucisw2/pic.sym 
+vhdtdtfi -prj VGA -o /home/ise/vmshare/ucisw2/pic.vhi -module pic -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work pic.vhd -lib work pic2.vhd 
+vhdtdtfi -lib work pic.vhd -lib work pic2.vhd -prj VGA -o pic.spl -module pic -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 -w pic.spl /home/ise/vmshare/ucisw2/pic.sym 
