@@ -1,0 +1,2 @@
+vhdtdtfi -lib work PS2_Konwerter.vhd -prj VGA -o PS2_Keyboard.spl -module PS2_Keyboard -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 PS2_Keyboard.spl /home/ise/vmshare/ucisw2/PS2_Keyboard.sym 

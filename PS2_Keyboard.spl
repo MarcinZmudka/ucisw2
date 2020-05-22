@@ -1,0 +1,9 @@
+[Inputs]
+DataRdy
+clk
+reset
+=DataIn[7:0]=
+[Outputs]
+StartTransmission_out
+=ascii_code[7:0]=
+[BiDir]

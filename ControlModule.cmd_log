@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ControlModule.vhd -prj VGA -o ControlModule.spl -module ControlModule -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 -w ControlModule.spl /home/ise/vmshare/ucisw2/ControlModule.sym 

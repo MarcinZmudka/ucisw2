@@ -2,14 +2,14 @@ Command line:
    pic_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  49932
+     -socket  54600
 
-Mon Jan 27 22:06:37 2020
+Thu May 21 20:01:01 2020
 
 
- Elaboration Time: 0.03125 sec
+ Elaboration Time: 0.06 sec
 
- Current Memory Usage: 5160.74 Meg
+ Current Memory Usage: 198.717 Meg
 
  Total Signals          : 37
  Total Nets             : 52
@@ -20,9 +20,9 @@ Mon Jan 27 22:06:37 2020
  Total Traceable Variables  : 14
  Total Scalar Nets and Variables : 536
 
- Total Simulation Time: 14.4063 sec
+ Total Simulation Time: 0.13 sec
 
- Current Memory Usage: 5003.46 Meg
+ Current Memory Usage: 276.316 Meg
 
-Mon Jan 27 22:11:20 2020
+Thu May 21 20:02:03 2020
 

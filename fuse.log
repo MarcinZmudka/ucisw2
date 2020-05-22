@@ -1,12 +1,14 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/lab/Desktop/VGA/pic_tb_isim_beh.exe -prj C:/Users/lab/Desktop/VGA/pic_tb_beh.prj work.pic_tb 
-ISim P.20131013 (signature 0x7708f090)
-Number of CPUs detected in this system: 12
-Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/vmshare/ucisw2/pic_tb_isim_beh.exe -prj /home/ise/vmshare/ucisw2/pic_tb_beh.prj work.pic_tb 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/lab/Desktop/VGA/pic.vhd" into library work
-Parsing VHDL file "C:/Users/lab/Desktop/VGA/pic_tb.vhd" into library work
+Parsing VHDL file "/home/ise/vmshare/ucisw2/pic.vhd" into library work
+Parsing VHDL file "/home/ise/vmshare/ucisw2/pic_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
+Fuse Memory Usage: 112856 KB
+Fuse CPU Usage: 1510 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
@@ -15,6 +17,7 @@ Compiling architecture behavioral of entity pic [pic_default]
 Compiling architecture behavior of entity pic_tb
 Time Resolution for simulation is 1ps.
 Compiled 7 VHDL Units
-Built simulation executable C:/Users/lab/Desktop/VGA/pic_tb_isim_beh.exe
-Fuse Memory Usage: 49724 KB
-Fuse CPU Usage: 358 ms
+Built simulation executable /home/ise/vmshare/ucisw2/pic_tb_isim_beh.exe
+Fuse Memory Usage: 128220 KB
+Fuse CPU Usage: 1720 ms
+GCC CPU Usage: 300 ms
