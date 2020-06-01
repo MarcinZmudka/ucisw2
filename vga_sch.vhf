@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : vga_sch.vhf
--- /___/   /\     Timestamp : 04/15/2020 10:14:14
+-- /___/   /\     Timestamp : 05/20/2020 19:45:46
 -- \   \  /  \ 
 --  \___\/\___\ 
 --

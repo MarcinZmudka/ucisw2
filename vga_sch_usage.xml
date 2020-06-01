@@ -4,8 +4,8 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
-<DeviceUsageSummary rev="17">
-<DesignStatistics TimeStamp="Wed Apr 15 10:14:37 2020"><group name="NetStatistics">
+<DeviceUsageSummary rev="18">
+<DesignStatistics TimeStamp="Wed May 20 19:46:11 2020"><group name="NetStatistics">
 <item name="NumNets_Active" rev="16">
 <attrib name="value" value="247"/></item>
 <item name="NumNets_Gnd" rev="16">
@@ -72,29 +72,29 @@
 <attrib name="value" value="43"/></item>
 </group>
 <group name="MiscellaneousStatistics">
-<item name="AGG_BONDED_IO" rev="17">
+<item name="AGG_BONDED_IO" rev="18">
 <attrib name="value" value="6"/></item>
-<item name="AGG_IO" rev="17">
+<item name="AGG_IO" rev="18">
 <attrib name="value" value="6"/></item>
-<item name="AGG_SLICE" rev="17">
+<item name="AGG_SLICE" rev="18">
 <attrib name="value" value="136"/></item>
-<item name="NUM_4_INPUT_LUT" rev="17">
+<item name="NUM_4_INPUT_LUT" rev="18">
 <attrib name="value" value="257"/></item>
-<item name="NUM_BONDED_IBUF" rev="17">
+<item name="NUM_BONDED_IBUF" rev="18">
 <attrib name="value" value="1"/></item>
-<item name="NUM_BONDED_IOB" rev="17">
+<item name="NUM_BONDED_IOB" rev="18">
 <attrib name="value" value="5"/></item>
-<item name="NUM_BUFGMUX" rev="17">
+<item name="NUM_BUFGMUX" rev="18">
 <attrib name="value" value="2"/></item>
-<item name="NUM_CYMUX" rev="17">
+<item name="NUM_CYMUX" rev="18">
 <attrib name="value" value="225"/></item>
-<item name="NUM_LUT_RT" rev="17">
+<item name="NUM_LUT_RT" rev="18">
 <attrib name="value" value="92"/></item>
-<item name="NUM_SLICEL" rev="17">
+<item name="NUM_SLICEL" rev="18">
 <attrib name="value" value="136"/></item>
-<item name="NUM_SLICE_FF" rev="17">
+<item name="NUM_SLICE_FF" rev="18">
 <attrib name="value" value="97"/></item>
-<item name="NUM_XOR" rev="17">
+<item name="NUM_XOR" rev="18">
 <attrib name="value" value="94"/></item>
 </group>
 </DesignStatistics>
@@ -291,6 +291,14 @@
 <item name="1" rev="16">
 <attrib name="value" value="29"/></item>
 </group>
+<group name="SLICEL_XORF">
+<item name="0" rev="16">
+<attrib name="value" value="47"/></item>
+<item name="1" rev="16">
+<attrib name="value" value="47"/></item>
+<item name="O" rev="16">
+<attrib name="value" value="47"/></item>
+</group>
 <group name="SLICEL_FFX">
 <item name="CE" rev="16">
 <attrib name="value" value="16"/></item>
@@ -301,14 +309,6 @@
 <item name="Q" rev="16">
 <attrib name="value" value="47"/></item>
 <item name="SR" rev="16">
-<attrib name="value" value="47"/></item>
-</group>
-<group name="SLICEL_XORF">
-<item name="0" rev="16">
-<attrib name="value" value="47"/></item>
-<item name="1" rev="16">
-<attrib name="value" value="47"/></item>
-<item name="O" rev="16">
 <attrib name="value" value="47"/></item>
 </group>
 <group name="SLICEL_FFY">

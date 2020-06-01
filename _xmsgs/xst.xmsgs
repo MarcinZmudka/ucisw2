@@ -5,25 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/vga_sch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/lab/Desktop/VGA/vga_sch.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_sch.vhf</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/vga_sch/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/lab/Desktop/VGA/vga_sch.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_sch.vhf</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/pic</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/lab/Desktop/VGA/pic.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/pic.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/pic/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/lab/Desktop/VGA/pic.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/pic.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/vga_driver</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/lab/Desktop/VGA/vga_controller.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_controller.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/vga_driver/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/lab/Desktop/VGA/vga_controller.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_controller.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/pic.vhd</arg>&quot; line <arg fmt="%d" index="2">58</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/pic.vhd</arg>&quot; line <arg fmt="%d" index="2">58</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
 <arg fmt="%s" index="3">&lt;x&gt;</arg>
 </msg>
 

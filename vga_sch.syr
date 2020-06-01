@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Reading design: vga_sch.prj
 
@@ -104,18 +104,10 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-WARNING:HDLParsers:3607 - Unit work/vga_sch is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/VGA/vga_sch.vhf", and is now defined in "C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_sch.vhf".
-WARNING:HDLParsers:3607 - Unit work/vga_sch/BEHAVIORAL is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/VGA/vga_sch.vhf", and is now defined in "C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_sch.vhf".
-WARNING:HDLParsers:3607 - Unit work/pic is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/VGA/pic.vhd", and is now defined in "C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/pic.vhd".
-WARNING:HDLParsers:3607 - Unit work/pic/Behavioral is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/VGA/pic.vhd", and is now defined in "C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/pic.vhd".
-WARNING:HDLParsers:3607 - Unit work/vga_driver is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/VGA/vga_controller.vhd", and is now defined in "C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_controller.vhd".
-WARNING:HDLParsers:3607 - Unit work/vga_driver/behavior is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/VGA/vga_controller.vhd", and is now defined in "C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_controller.vhd".
 Compiling vhdl file "C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_controller.vhd" in Library work.
-Entity <vga_driver> compiled.
-Entity <vga_driver> (Architecture <behavior>) compiled.
+Architecture behavior of Entity vga_driver is up to date.
 Compiling vhdl file "C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/pic.vhd" in Library work.
-Entity <pic> compiled.
-Entity <pic> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity pic is up to date.
 Compiling vhdl file "C:/Users/Marcin/Desktop/Uczelnia/ucisw/VGA/vga_sch.vhf" in Library work.
 Entity <vga_sch> compiled.
 Entity <vga_sch> (Architecture <behavioral>) compiled.
@@ -594,14 +586,14 @@ Offset:              10.677ns (Levels of Logic = 8)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.37 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.88 secs
  
 --> 
 
-Total memory usage is 4529368 kilobytes
+Total memory usage is 4527808 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   55 (   0 filtered)
+Number of warnings :   49 (   0 filtered)
 Number of infos    :    3 (   0 filtered)
 
